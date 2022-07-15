@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.exercise">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".AdExercise" />
+        <activity android:name=".Compare2" />
+        <activity android:name=".CheckNumber" />
+        <activity android:name=".SquareNumber" />
+        <activity android:name=".Compare3" />
+        <activity android:name=".Percentage" />
+        <activity android:name=".MainActivity">
+
+        </activity>
+        <activity android:name=".Calculator" >
+        </activity>
+        <activity android:name=".Splash1">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Splash3" />
+        <activity android:name=".ViewForm">
+
+        </activity>
+
+        <activity android:name=".Form" >
+
+    </activity>
+        <activity android:name=".Splash2" />
+    </application>
+
+</manifest>
